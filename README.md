@@ -1,5 +1,6 @@
 # Scurvy
 
+Scurvy is an OpenClaw agent equipped with red-teaming tools, having the automation and agentic reasoning driven by the OpenClaw agent, which can utilize classic AD tooling to compromise entire AD systems.
 An autonomous Active Directory red-teaming agent. Given only a target IP, it works a fixed sequence to reach Domain Admin and reports the path with evidence.
 
 Runs on the OpenClaw agent framework: the agent loop drives custom skills inside a sandbox, one tool call per turn.
