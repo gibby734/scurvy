@@ -1,10 +1,10 @@
-# ☠️ Scurvy
+#  Scurvy
 
 **Scurvy** is an autonomous offensive-security (red-team) agent built for **Hull** (codename *Davy Jones Domain*), a contained, instrumented AI purple-teaming research lab. It runs on the [OpenClaw](https://github.com/) agent framework as the tool-calling vehicle, driving a small local model against an isolated Active Directory domain and leaving a clean, reproducible log of every action.
 
 This repository is the **agent definition** — its identity/doctrine workspace files plus the custom AD tradecraft skills. It is a research and portfolio artifact.
 
-> ### ⚠️ Authorized-use notice
+> ###  Authorized-use notice
 > Scurvy is designed and used **only against targets inside a contained, sanctioned lab** (an isolated AD domain on a dedicated VLAN, no real-world victim). Every bundled skill enforces an **RFC1918-only scope guard** and refuses public targets unless explicitly overridden with authorization. The password-spray skill is **lockout-safe by design**. Do not point these tools at systems you are not explicitly authorized to test. The skills wrap standard, already-public offensive-security tools (NetExec, Impacket, Certipy, kerbrute, bloodyAD, nmap); the value here is the agent doctrine, orchestration, and safety guards, not novel exploits.
 
 ## What's here
