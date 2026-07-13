@@ -6,6 +6,8 @@ An autonomous Active Directory red-teaming agent. Given only a target IP, it wor
 
 Runs on the OpenClaw agent framework: the agent loop drives custom skills inside a sandbox, one tool call per turn.
 
+Scurvy is not meant to be an all-powerful red-teaming solution, but a copilot to automate penetration tasks achieving much faster attacks, accurately. 
+
 > Authorized testing only. Every skill enforces an RFC1918-only scope guard and refuses public targets without an explicit override. The spray skill is lockout-safe by design.
 
 ## How it works
