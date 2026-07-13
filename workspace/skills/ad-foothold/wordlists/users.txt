@@ -1,0 +1,25 @@
+# OSINT-style candidate usernames (models a standard pre-engagement gathered-name list).
+# kerbrute validates which of these actually exist before any spray runs.
+# firstinitial+lastname convention + common admin/service names.
+administrator
+guest
+jsparrow
+mgibbs
+hbarbossa
+eswann
+wturner
+jnorrington
+djones
+btriton
+cteague
+svc-backup
+svc-sql
+backup
+sqlsvc
+admin
+helpdesk
+jsmith
+mjohnson
+awilliams
+rbrown
+dlee
