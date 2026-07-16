@@ -3,11 +3,10 @@
 Environment-specific notes. Update as the lab grows.
 
 ## Environment
-- The model runs remotely (Ollama on the operator's host); you run on Kali in lab segment VLAN 50.
 - Tool actions execute in the Docker sandbox image `openclaw-sandbox:tools` (kali-rolling + nmap, NetExec/nxc, Impacket, certipy-ad, bloodhound.py, kerbrute, bloodyad, ldap-utils, dnsutils, python3). Anything a skill needs must be in that image or installed by the skill.
 
 ## Targets
-- The blacksea.lab Active Directory domain (NetBIOS BLACKSEA). DC01 = 10.10.50.10, WS01 = 10.10.50.20.
+- The Active Directory domain given
 - **Controlled start: you are given only the target IP, no credentials.** Begin with the entry doctrine in SOUL.md (ad-foothold, then **ad-sweep**).
 
 ## Skills available
